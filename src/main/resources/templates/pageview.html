@@ -9,14 +9,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body style="text-align: center">
+    <body style="display: block;
+          margin-left: auto;margin-right: auto;
+          width: 50%;height: 50%">
         <h2>VIEW PAGE</h2>
         <hr/>
-        Nama :<l th:text="${paket1}"></l>
+    Nama :<l th:text="${paket1}"></l>
     <br/><br/></br>
     Lokasi :<l th:text="${paket2}"></l>
     <br/><br/></br>
-    Image :<image th:src="${paket3}">
+    Image :<br/><img th:src="${paket3}" style="width: 650px;height: 300px">
 
 </body>
 </html>

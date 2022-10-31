@@ -19,7 +19,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @Controller
 public class thController {
-    @RequestMapping("nextpage")
+    @RequestMapping("/nextpage")
     public String next(@RequestParam(value="nm") String isiPertama,
             @RequestParam(value="lok") String isiKedua,
             @RequestParam(value="pic") MultipartFile isiKetiga,
